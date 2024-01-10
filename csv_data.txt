@@ -1,0 +1,3 @@
+
+rolf,25,mit,computer science
+ayush,21,skit,CS with AI

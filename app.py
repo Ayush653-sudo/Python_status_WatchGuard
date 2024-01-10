@@ -1,0 +1,10 @@
+import  file_operation
+file_operation.save_to_file('Rolf','Data.txt')
+
+def find_in(iterable,finder,expected):
+    for i in iterable:
+        if finder(i)==expected:
+            return i
+    raise NotFoundError(f'{expected} not found in provided iterable.')
+class NotFoundError(Exception):
+    pass
